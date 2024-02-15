@@ -1,0 +1,467 @@
+              
+#Accueil{
+    background-image: linear-gradient(to left top, #ffffff, #f8e9fa, #ffd0e5, #ffb7bf, #ffa48c, #ffa571, #ffaa51, #f9b428, #f8c325, #f4d225, #efe12a, #e8f034);
+    margin-bottom: 0px;
+    height: 120vh;
+}
+
+.menu-de-nav {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 0;
+    position: fixed;
+    transition: all  ;
+}
+
+.nav-sticky {
+    background-color:  #d1d82d;
+}
+
+
+.lien-droite{
+    width: 40%;
+   display: flex;
+   justify-content: space-between;
+   
+}
+
+.lien-droite a{
+    display: flex;
+    color: #ffff;
+    font-size: large;
+    font-weight: 300;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.lien-gauche{
+    width: 20%;
+}
+
+.lien-gauche a{
+    color: #ffff;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+                /* debut Baniere1 */
+
+.baniere1 {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 70px;
+    margin: 0 30px;
+ 
+}
+.baniere1-texte{
+    width: 50%;
+    height: 500px;
+    color: #ffff;
+    margin-left: 90px;
+}
+.baniere1-texte p{
+    font-size: 18px;
+}
+.baniere1-texte div{
+    width: 400px;
+    margin-top: 50px;
+}
+.baniere1-texte button{
+    margin-top: 30px;
+    color: #f3be0f;
+    padding: 10px 15px;
+    background-color: #ffff;
+    border-radius: 30px;
+    border: 0;
+}
+
+
+.baniere1-image {
+    width: 50%;
+    height: 500px;
+    padding-left: 130px;
+}
+.baniere1-image img{
+    width: 350px;
+    height: 500px;
+}
+
+        /* Fin Baniere1 */
+
+
+        /* debut Baniere2 */
+
+        .baniere2 {
+            width: 100%;
+            display: flex;
+            justify-content: space-evenly;
+            padding-top: 150px;
+            /* margin: 0 30px; */
+            background-color: #dad8d848;
+            padding-bottom: 30px;
+            /* margin-bottom: 30px; */
+         
+        }
+        .baniere2-texte{
+            width: 50%;
+            height: 500px;
+            color: #020202;
+            margin-left: 90px;
+            padding: 0 80px;
+        }
+        .baniere2-texte h2 {
+            font-weight: 600;
+            line-height: 45px;
+            font-size: 36px;
+            margin-bottom: 30px 
+        }
+        .baniere2-texte p{
+            line-height: 24px;
+            font-size: 14px;
+            font-family: "Roboto", sans-serif;
+            font-weight: normal;
+        }
+        .baniere2-texte div{
+            width: 400px;
+            margin-top: 50px;
+        }
+        .baniere2-texte button{
+            margin-top: 30px;
+            color: #ffffff;
+            padding: 10px 15px;
+            background-color: #ffff;background-image: linear-gradient(to right bottom, #f89516, #f1a709, #e8b808, #dec818, #d1d82d);
+            border-radius: 30px;
+            border: 0;
+        }
+        .baniere2-texte button:hover{
+            background-image: linear-gradient(to left bottom, #f8a02f, #f2ae26, #e9bc21, #deca23, #d1d82d);
+        }
+        
+        .baniere2-image {
+            width: 50%;
+            height: 500px;
+            padding-left: 130px;
+        }
+        .baniere2-image img{
+            width: 100%;
+            height: 500px;
+        }
+
+        /* Fin Baniere2 */
+
+
+
+         /* debut Baniere3 */
+
+         .baniere3 {
+            width: 100%;
+            display: flex;
+            justify-content: space-evenly;
+            padding-top: 150px;
+            background-color: #dad8d848;
+            padding-bottom: 30px;
+            margin-bottom: 30px;
+         
+        }
+        .baniere3-texte{
+            width: 50%;
+            height: 500px;
+            color: #020202;
+            margin-left: 90px;
+            padding: 0 80px;
+        }
+        .baniere3-texte h2 {
+            font-weight: 600;
+            line-height: 45px;
+            font-size: 36px;
+            margin-bottom: 30px 
+        }
+        .baniere3-image p{
+            line-height: 24px;
+            font-size: 14px;
+            font-family: "Roboto", sans-serif;
+            font-weight: normal;
+        }
+        .baniere3-texte div{
+            width: 400px;
+            margin-top: 50px;
+        }
+        .baniere3-texte button{
+            margin-top: 30px;
+            color: #ffffff;
+            padding: 10px 15px;
+            background-color: #ffff;background-image: linear-gradient(to right bottom, #f89516, #f1a709, #e8b808, #dec818, #d1d82d);
+            border-radius: 30px;
+            border: 0;
+        }
+        .baniere3-texte button:hover{
+            background-image: linear-gradient(to left bottom, #f8a02f, #f2ae26, #e9bc21, #deca23, #d1d82d);
+        }
+        
+        .baniere3-image {
+            width: 50%;
+            height: 500px;
+            padding-right: 100px;
+        }
+        .baniere3-image img{
+            width: 100%;
+            height: 500px;
+        }
+        
+        /* Fin Baniere3 */
+
+#Pricing{
+    background-color:#e8740860;
+    padding-bottom: 20px;
+}
+
+.Pricing-en-tete{
+    margin: auto;
+    text-align: center;
+    padding: 10px 15px 80px;
+
+}
+.Pricing-conteneur{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+    
+
+}
+
+.Pricing-en-tete h2{
+    font-size: 50px;
+    font-weight:500;
+    color: #fff;
+}
+.Pricing-conteneur section{
+    width: 300px;
+    height: 350px;
+    padding: 15px 20px 0;
+    background-color: #ffffff4d;
+    box-shadow: 1px 1px 1px 2px rgba(0,0,0,0.15);
+    border-radius: 30px;
+}
+.section1{
+    /* display: flex; */
+    text-align: center;
+    justify-content: space-between;
+    border-bottom: #f37106 solid 2px;
+    padding-bottom: 20px;
+}
+
+.section1 h4{
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffff;
+}
+
+.section2{
+    text-align: center;
+}
+.section2 p{
+    margin-top: 20px;
+    font-size: 20px;
+
+}
+
+
+.section2 button{
+    padding: 10px 15px;
+    margin-top: 20px;
+    background-color: #caba2a;
+    border-radius: 30px;
+    color: #ffff;
+    font-weight: 500;
+    border: 0;
+}
+.section2 button:hover{
+    background-image: linear-gradient(to left bottom, #f8a02f, #f2ae26, #e9bc21, #deca23, #d1d82d);
+}
+
+
+.banniere-contact{
+    margin-top: 20px;
+    background-image:url(../asset/italian-lasagne-served-with-rocket-salad.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 50%  65%  ;
+    background-size: cover;
+
+}
+.text-input{
+    display: flex;
+    background-color: rgba(0,0,0,0.6);
+
+
+}
+.banniere-input{
+width: 50%;
+display: flex;
+flex-direction: column;
+margin: auto 20px auto 100px;
+padding: 15px;
+padding: 45px;
+display: block;
+}
+
+.banniere-input input,textarea{
+background-color: transparent;
+border: none;
+border-bottom: 2px solid #f59e1b;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-self: center;
+outline: 0;
+color: #fff;
+
+}
+
+
+.banniere-text{
+width: 50%;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 50px 0px 15px 30px;
+}
+
+
+.banniere-text h2{
+    color: #fff;
+    margin-bottom: 30px;
+    font-size: 40px;
+    font-weight: bold;
+}
+ .banniere-text p{
+    padding: 10px 30px 0 0px;
+    margin-bottom: 8px;
+    word-spacing: 5px;
+    color: #fff;
+    font-size: 18px;
+    
+
+ }
+
+ .banniere-text li{
+    padding: 10px 30px 0 0px;
+    margin-bottom: 4px;
+    word-spacing: 3px;
+    color: #fff;
+    font-size: 16px;
+    
+
+ }
+
+ .img{
+    width: 16px;
+    height: 16px;
+    margin-top: 10px;
+ }
+
+
+.banniere-input ::placeholder{
+    color: #fff;
+}
+
+
+.input-form{
+    width: 100%;
+    border: none;
+    height: 50px;
+    margin-bottom: 15px;
+    padding-left: 15px;
+    outline: none;
+    color: #101010;
+    border-radius: 0;
+    -webkit-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.05);
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.05);
+}
+#btn-contact{
+    margin-top: 15px;
+    display: inline-block;
+    padding: 12px 55px;
+    outline: 0;
+    border: 0;
+    border-radius: 30px;
+    background-color: #d1d82d;
+    color: #fff;
+    font-size: 15px;
+}
+
+.symbole1{
+	display: inline;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+/* footer */
+
+.foot{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    height: 35vh;
+    background-color: #666666 ;
+}
+
+.foot section{
+    width: 20%;
+}
+.foot p,li{
+    font-size: 15px;
+    font-weight: 400;
+    color: #ffffff;
+    margin-top: 15px;
+}
+.foot em {
+    font-size: 15px;
+    font-weight: 600;
+    color: #ffffff;
+    margin-top: 15px;
+}
+.foot h4{
+    font-size: 25px;
+    font-weight: 600;
+    color: #ffffff;
+}
+.foot-link{
+    display: inline;
+}
+.icones{
+    display: flex;
+    flex-direction: row;
+    color: #000;
+
+
+}
+.icon img{
+    margin-top: 20px;
+    margin-right: 10px;
+    width: 30px;
+    height: 30px;
+ color: #bdbdbd;
+}
+
+
+.foot button{
+    background-color: #ffff;
+    padding: 10px 15px;
+    color: #e8b808;
+    border-radius: 30px;
+    border: 0;
+    transition: all 0.5s;
+}
+
+
+.copyrigt{
+    text-align: center;
+    /* background-color: #fc580d; */
+    padding: 5px;
+}
